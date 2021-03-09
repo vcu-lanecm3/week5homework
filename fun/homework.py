@@ -26,8 +26,13 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-
-    list_sum = sum(incoming_list)
+    if incoming_list == None or incoming_list == []:
+        if incoming_list == None:
+            list_sum = None
+        else:
+            list_sum = 0
+    else:
+        list_sum = sum(incoming_list)
     return list_sum
 
 
@@ -37,10 +42,12 @@ def longest_value_key(incoming_dict):
     Find the KEY that has a value with the highest length,
     use the len() function
     """
-
-    dictkeys = list(incoming_dict.keys())
-    dictvalues = list(incoming_dict.values())
-    longest_value = max(dictvalues, key = len)
-    position = dictvalues.index(longest_value)
-    longest_key = dictkeys[position]
+    if incoming_dict == None or incoming_dict == {}:
+        longest_key = None
+    else:
+        dictkeys = list(incoming_dict.keys())
+        dictvalues = list(incoming_dict.values())
+        longest_value = max(dictvalues, key = len)
+        position = dictvalues.index(longest_value)
+        longest_key = dictkeys[position]
     return longest_key
