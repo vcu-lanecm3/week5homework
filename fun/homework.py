@@ -6,7 +6,8 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """ 
-    return max(incoming_list)
+    Max_Number = max(incoming_list)
+    return Max_Number
 
 
 def find_least_number(incoming_list):
@@ -14,7 +15,8 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    return min(incoming_list)
+    Min_Number = min(incoming_list)
+    return Min_Number
 
 
 def add_list_numbers(incoming_list):
