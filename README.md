@@ -12,7 +12,7 @@
 
 
 
-[![Pylint](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/pylint.yml/badge.svg)](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/pylint.yml)
+[![Pylint](https://github.com/vcu-lanecm3/week5homework/actions/workflows/pylint.yml/badge.svg)](https://github.com/vcu-lanecm3/week5homework/actions/workflows/pylint.yml)
 
 
 Same as last time, but with newer information!
